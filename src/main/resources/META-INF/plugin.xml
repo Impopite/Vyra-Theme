@@ -1,0 +1,30 @@
+<idea-plugin>
+    <id>impog.vyra-theme</id>
+    <name>Vyra Theme</name>
+    <version>1.0.0</version>
+    <vendor url="https://github.com/impog">impog</vendor>
+
+    <description><![CDATA[
+        <p><b>Vyra Theme</b> is a dark theme for JetBrains IDEs based on the Impoo color scheme.</p>
+        <ul>
+            <li>Editor color scheme inspired by GitHub Dark, with semantic highlighting for classes,
+                methods, fields, parameters and annotations.</li>
+            <li>Consistent UI on <code>#161B22</code>: panels, trees, lists, tables, menus, popups,
+                toolbars, status bar, tool window tabs and editor tabs.</li>
+            <li>Icons recolored to match the same palette.</li>
+        </ul>
+        <p>Enable it from <code>Settings | Appearance &amp; Behavior | Appearance | Theme | Vyra Theme</code>.</p>
+    ]]></description>
+
+    <change-notes><![CDATA[
+        <p>1.0.0: first release.</p>
+    ]]></change-notes>
+
+    <idea-version since-build="213"/>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="impog.vyra-theme" path="/themes/Vyra.theme.json"/>
+    </extensions>
+</idea-plugin>
