@@ -5,7 +5,7 @@
     <vendor url="https://github.com/Impopite">Impo</vendor>
 
     <description><![CDATA[
-        <p><b>Vyra Theme</b> is a dark theme for JetBrains IDEs based on the Impoo color scheme.</p>
+        <p><b>Vyra Theme</b> is a dark theme for JetBrains IDEs.</p>
         <ul>
             <li>Editor color scheme inspired by GitHub Dark, with semantic highlighting for classes,
                 methods, fields, parameters and annotations.</li>
