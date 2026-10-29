@@ -141,13 +141,14 @@
     "MenuItem.selectionForeground": "selectionFg",
     "MenuItem.disabledForeground": "dimmed",
     "Menu.separatorColor": "border",
-    "Menu.border": "border",
+    "Menu.borderColor": "border",
     "PopupMenu.background": "bg",
     "PopupMenu.foreground": "fg",
 
     "Popup.background": "bg",
     "Popup.foreground": "fg",
-    "Popup.border": "border",
+    "Popup.borderColor": "border",
+    "Popup.inactiveBorderColor": "border",
     "Popup.shadow": "#00000060",
 
     "ToolTip.background": "bg",
@@ -201,12 +202,12 @@
 
     "ToolWindow.background": "bg",
     "ToolWindow.Header.background": "bg",
-    "ToolWindow.HeaderTab.background": "bg",
-    "ToolWindow.HeaderTab.foreground": "muted",
-    "ToolWindow.HeaderTab.selectedForeground": "fg",
+    "ToolWindow.Header.inactiveBackground": "bg",
+    "ToolWindow.Header.borderColor": "border",
     "ToolWindow.HeaderTab.selectedBackground": "bgAlt",
+    "ToolWindow.HeaderTab.selectedInactiveBackground": "bgAlt",
     "ToolWindow.HeaderTab.hoverBackground": "bgAlt",
-    "ToolWindow.HeaderTab.borderColor": "border",
+    "ToolWindow.HeaderTab.hoverInactiveBackground": "bgAlt",
     "ToolWindow.HeaderSeparatorColor": "border",
 
     "ToolBar.background": "bg",
