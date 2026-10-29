@@ -2,7 +2,7 @@
 .SYNOPSIS
     Impacchetta il plugin "Vyra Theme" in uno ZIP installabile (senza Gradle).
 .PARAMETER Version
-    Versione del plugin (default 1.0.0). Aggiorna anche <version> in plugin.xml.
+    Versione del plugin (default 1.1.0). Aggiorna anche <version> in plugin.xml.
 .PARAMETER RefreshScheme
     Ricopia l'Impoo color scheme da IntelliJ dentro themes/Vyra.xml prima del build.
 .PARAMETER Scheme
@@ -12,7 +12,7 @@
 #>
 [CmdletBinding()]
 param(
-    [string] $Version = '1.0.0',
+    [string] $Version = '1.1.0',
     [string] $Scheme,
     [switch] $RefreshScheme
 )
